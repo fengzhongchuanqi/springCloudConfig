@@ -1,0 +1,13 @@
+server:
+  port: 8888
+#  ssl:
+#    key-store: classpath:keystore.p12
+#    key-store-password: 123456
+#    key-store-type: PKCS12
+#    key-alias: tomcat
+
+  # 配置zookeeper地址
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
